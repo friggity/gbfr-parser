@@ -341,7 +341,35 @@
       "1400": "Turbulentz",
       "1500": "Southern Cross"
     },
-    "f96a90c2": {},
+    "f96a90c2": {
+      "100": "Attack 1",
+      "101": "Attack 2",
+      "102": "Attack 3",
+
+      "110": "Power Strike 1 (XY)",
+      "120": "Power Strike 2 (XXY)",
+      "103": "Power Strike 3 (XXXY)",
+      "111": "Combo Finisher 1 (XYY)",
+      "121": "Combo Finisher 2 (XXYY)",
+      "104": "Combo Finisher 3 (XXXYY or after skills)",
+
+      "200": "Heavy Swing 1",
+      "201": "Heavy Swing 2",
+      "202": "Heavy Swing 3",
+      "203": "Heavy Swing 4",
+      "204": "Heavy Swing 5",
+
+      "300": "Aerial Attack 1",
+      "310": "Aerial Attack 2",
+      "320": "Aerial Attack 3",
+      "400": "Launch Attack",
+      "410": "Aerial Barrage",
+
+      "1100": "Rift Divider",
+      "1300": "Arm Destruction",
+      "1400": "Heroic Beat",
+      "1600": "Energy Destruction"
+    },
     "28ac1108": {
       "1": "Feuerangriff",
       "4": "Zerreissen",
