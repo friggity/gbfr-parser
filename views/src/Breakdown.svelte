@@ -32,6 +32,10 @@
   const getActionName = (characterId: string, actionId: number) => {
     const $_ = get(_);
 
+    if (characterId === "26a4848a") {
+      characterId = "9498420d";
+    }
+
     let v = $_(`actions.common.${actionId}`);
     if (v.startsWith("actions.")) {
       v = $_(`actions.${characterId}.${actionId}`);
