@@ -38,8 +38,11 @@ export const createSession = () => {
   const $sessions = get(sessions);
   if ($sessions.length) {
     const session = $sessions[$sessions.length - 1];
-    pruneEvents(session);
-    calculateDps(session);
+    if (!session.done) {
+      session.done = true;
+      pruneEvents(session);
+      calculateDps(session);
+    }
   }
 
   const session: Session = {

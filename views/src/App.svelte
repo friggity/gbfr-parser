@@ -19,7 +19,7 @@
       if (data.source[3] === -1 || !data.damage) return;
 
       let session = $sessions[$sessions.length - 1];
-      if (!session) {
+      if (!session || session.done) {
         session = createSession();
         updateSessionIdx = true;
       } else {
