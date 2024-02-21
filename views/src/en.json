@@ -48,8 +48,9 @@
       "221": "Launch 2 (XXYY)",
 
       "300": "Aerial Attack 1",
-      "301": "Aerial Attack 2",
-      "302": "Aerial Attack 3",
+      "310": "Aerial Attack 2",
+      "320": "Aerial Attack 3",
+      "330": "Aerial Combo Finisher",
       "400": "Launch Attack",
       "410": "Aerial Barrage",
 
