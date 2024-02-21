@@ -390,7 +390,37 @@
       "400": "Launch Attack",
       "410": "Aerial Barrage"
     },
-    "94e2514e": {},
+    "94e2514e": {
+      "100": "Attack 1",
+      "101": "Attack 2",
+      "102": "Attack 3",
+      "103": "Attack 4",
+      "104": "Combo Finisher",
+
+      "111": "Attack 2 (Perfect)",
+      "112": "Attack 3 (Perfect)",
+      "113": "Attack 4 (Perfect)",
+      "150": "Combo Finisher (Perfect)",
+      "170": "Perfect Execution",
+
+      "200": "Lunge 1",
+      "201": "Lunge 2",
+      "202": "Lunge 3",
+      "203": "Lunge 4",
+
+      "300": "Aerial Attack 1",
+      "301": "Aerial Attack 2",
+      "302": "Aerial Combo Finisher",
+      "311": "Aerial Attack 2 (Perfect)",
+      "312": "Aerial Combo Finisher (Perfect)",
+      "400": "Launch Attack",
+      "410": "Aerial Barrage",
+
+      "1000": "Uwe",
+      "1100": "L'Ombre d'Hier",
+      "1300": "Nelah Nav",
+      "1600": "Vendrängen"
+    },
     "6fdd6932": {
       "100": "Attack 1",
       "101": "Attack 2",
