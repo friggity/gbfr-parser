@@ -111,13 +111,11 @@
               <!-- svelte-ignore a11y-click-events-have-key-events -->
               <span
                 on:click={() => {
-                  sessions.update(v => {
-                    v.splice(idx, 1);
-                    if ($sessionIdx === idx) {
-                      $sessionIdx = Math.max(0, idx - 1);
-                    }
-                    return v;
-                  });
+                  $sessions.splice(idx, 1);
+                  $sessions = $sessions;
+                  if ($sessionIdx === idx) {
+                    $sessionIdx = Math.max(0, idx - 1);
+                  }
                 }}
               >
                 <Close size="1.8rem" />
