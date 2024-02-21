@@ -124,7 +124,10 @@
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
       "400": "Launch Attack",
-      "410": "Aerial Barrage"
+      "410": "Aerial Barrage",
+
+      "4294967295": "GrenadeOverkill",
+      "215": "GrenadeOverkill2"
     },
     "a9d6569e": {},
     "2b4aa114": {
@@ -158,7 +161,7 @@
     },
     "bcc238de": {},
     "fba6615d": {
-      "65": "寵物攻擊",
+      "65": "Pets",
       "100": "Attack 1",
       "110": "Attack 2",
       "120": "Attack 3",
@@ -261,6 +264,7 @@
       "120": "Attack 3",
       "130": "Combo Finisher",
       "200": "Schlaht",
+      "201": "Schlaht 2 (XY)",
 
       "300": "Aerial Attack 1",
       "310": "Aerial Attack 2",
@@ -274,15 +278,18 @@
       "101": "Attack 2",
       "102": "Attack 3",
       "103": "Attack 4",
-      "200": "Collapse",
 
       "110": "Power Strike 1 (XY)",
-      "111": "Combo Finisher 1 (XYY)",
       "120": "Power Strike 2 (XXY)",
-      "121": "Combo Finisher 1 (XXYY)",
       "130": "Power Strike 3 (XXXY)",
-      "131": "Combo Finisher 3 (XXXYY)",
+      "104": "Power Strike 4 (XXXXY)",
 
+      "111": "Combo Finisher 1 (XYY)",
+      "121": "Combo Finisher 1 (XXYY)",
+      "131": "Combo Finisher 3 (XXXYY)",
+      "105": "Combo Finisher 4 (XXXXYy)",
+
+      "200": "Collapse",
       "210": "Enhanced Collapse (Link Time/After Finishers)",
       "220": "Enhanced Collapse (After Link Attack)",
       "230": "Enhanced Collapse (After Alexandria/Mimic Doll)",
@@ -336,12 +343,18 @@
       "120": "Attack 3 (XXX/XYXX)",
       "114": "Attack 4 (XYX)",
       "122": "Attack 5 (XXYX)",
+
+      "112": "Charged Power Strike 1 (XY)",
       "113": "Power Strike 1 (XY)",
       "121": "Power Strike 2 (XXY)",
       "130": "Power Strike 3 (XXXY)",
+
+      "280": "Charged Combo Finisher 1 (XYY)",
       "281": "Combo Finisher 1 (XYY)",
       "251": "Combo Finisher 2 (XXYY)",
       "252": "Combo Finisher 3 (XXXYY)",
+      "260": "Combo Finisher (After Battalions of Fear)",
+      "270": "Combo Finisher (After Great Scythe Grynoth)",
 
       "200": "Melas Unleashed",
 
