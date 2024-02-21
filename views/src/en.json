@@ -95,8 +95,14 @@
       "2000": "Freeze",
       "3000": "Fire",
       "4000": "Flowery Seven",
-      "7200": "Gravity Well",
-      "8202": "Lightning"
+      "7200": "Gravity Well (Mystic Vortex 0)",
+      "7201": "Gravity Well (Mystic Vortex 1)",
+      "7202": "Gravity Well (Mystic Vortex 2)",
+      "7203": "Gravity Well (Mystic Vortex 3)",
+      "8200": "Lightning (Mystic Vortex 0)",
+      "8201": "Lightning (Mystic Vortex 1)",
+      "8202": "Lightning (Mystic Vortex 2)",
+      "8203": "Lightning (Mystic Vortex 3)"
     },
     "443d46bb": {
       "1": "Sumrak",
