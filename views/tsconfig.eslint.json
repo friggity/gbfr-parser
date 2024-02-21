@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx", "*.svelte"],
+      "parserOptions": {
+        "project": ["./tsconfig.json"]
+      }
+    }
+  ],
+  "parser": "@typescript-eslint/parser"
+}
