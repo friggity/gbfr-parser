@@ -157,7 +157,27 @@
       "1700": "Holy Ladder"
     },
     "bcc238de": {},
-    "fba6615d": {},
+    "fba6615d": {
+      "65": "寵物攻擊",
+      "100": "Attack 1",
+      "110": "Attack 2",
+      "120": "Attack 3",
+      "111": "Attack (Hold)",
+      "200": "Onslaught",
+
+      "300": "Aerial Attack 1",
+      "301": "Aerial Attack 2",
+      "302": "Aerial Attack 3",
+      "400": "Launch Attack",
+      "410": "Aerial Barrage",
+
+      "1000": "Purge Spirits",
+      "1100": "Blaues Gespenst",
+      "1210": "Sic' Em, Geegee!",
+      "1400": "Pendel",
+      "1500": "Strafe",
+      "1700": "Umlauf"
+    },
     "601aa977": {
       "100": "Attack 1 (Freeflutter/Blue)",
       "101": "Attack 2 (Freeflutter/Blue)",
