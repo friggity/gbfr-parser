@@ -35,8 +35,8 @@
       "101": "Attack 2",
       "102": "Attack 3",
       "110": "Loop Combo Opening",
-      "111": "Loop Combo (Down)",
-      "210": "Loop Combo (Up)",
+      "111": "Loop Combo (Dive)",
+      "210": "Loop Combo",
       "211": "Loop Finisher",
       "212": "Arvess Hammer",
       "213": "Rhapsody",
@@ -44,7 +44,7 @@
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
-      "303": "Loop Combo Opening (Aerial)",
+      "303": "Aerial Loop Combo Opening",
       "400": "Launch Attack",
       "410": "Aerial Barrage",
 
@@ -54,8 +54,8 @@
       "1400": "Wingclipper",
       "1610": "Thousand Flames",
       "1700": "Realm's Majesty",
-      "1702": "Realm's Majesty Counter (Jump)",
-      "1703": "Realm's Majesty Counter"
+      "1702": "Realm's Majesty Counter 1",
+      "1703": "Realm's Majesty Counter 2"
     },
     "34d4fd8f": {},
     "f8d73d33": {
