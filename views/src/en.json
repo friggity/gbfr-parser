@@ -26,7 +26,10 @@
     "common": {
       "-1": "Link Attack",
       "-2": "Skybound Art",
-      "-3": "Supplemental Damage"
+      "-3": "Supplemental Damage",
+      "-256": "Damage Over Time (DoT)",
+      "5000": "Ether Round",
+      "5010": "Charged Shot"
     },
     "9498420d": {
       "100": "Attack 1",
