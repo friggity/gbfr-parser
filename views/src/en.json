@@ -497,10 +497,10 @@
       "114": "Attack 4 (XYX)",
       "122": "Attack 5 (XXYX)",
 
-      "112": "Charged Power Strike 1 (XY)",
-      "113": "Power Strike 1 (XY)",
-      "121": "Power Strike 2 (XXY)",
-      "130": "Power Strike 3 (XXXY)",
+      "112": "Power Strike 1 (Charged)",
+      "113": "Power Strike 1 ",
+      "121": "Power Strike 2 ",
+      "130": "Power Strike 3 ",
 
       "280": "Finisher 1 (Charged)",
       "281": "Finisher 1 ",
@@ -536,9 +536,9 @@
       "113": "Attack 4 (Perfect)",
       "114": "Combo Finisher (Perfect)",
 
-      "122": "Attack 3 (Combo Broken)",
-      "123": "Attack 4 (Combo Broken)",
-      "124": "Combo Finisher (Combo Broken)",
+      "122": "Attack 3 (Mistimed)",
+      "123": "Attack 4 (Mistimed)",
+      "124": "Combo Finisher (Mistimed)",
 
       "200": "Raging Fist",
 
