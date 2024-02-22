@@ -263,7 +263,7 @@
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
-      "400": "Launch Attack",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "1000": "Purge Spirits",
@@ -277,20 +277,20 @@
       "100": "Attack 1 (Freeflutter/Blue)",
       "101": "Attack 2 (Freeflutter/Blue)",
       "102": "Attack 3 (Freeflutter/Blue)",
-      "110": "Attack Combo 1 (Freeflutter/Blue)",
-      "111": "Attack Combo 2 (Freeflutter/Blue)",
-      "112": "Attack Combo 3 (Freeflutter/Blue)",
-      "113": "Attack Combo 4 (Freeflutter/Blue)",
-      "114": "Attack Combo 5 (Freeflutter/Blue)",
+      "110": "Attack 1 (Rush) (Freeflutter/Blue)",
+      "111": "Attack 2 (Rush) (Freeflutter/Blue)",
+      "112": "Attack 3 (Rush)(Freeflutter/Blue)",
+      "113": "Attack 4 (Rush) (Freeflutter/Blue)",
+      "114": "Attack 5 (Rush) (Freeflutter/Blue)",
       "120": "Combo Finisher (Freeflutter/Blue)",
       "200": "Dawnfly Stance (Stance shift: Blue-to-pink)",
       "1000": "Dawnfly Finisher (Stance shift: Blue-to-pink)",
       "300": "Aerial Attack 1 (Freeflutter/Blue)",
       "310": "Aerial Attack 2 (Freeflutter/Blue)",
       "320": "Aerial Attack 3 (Freeflutter/Blue)",
-      "400": "Launch Attack (Freeflutter/Blue)",
+      "400": "Launch (Freeflutter/Blue)",
       "410": "Aerial Barrage (Freeflutter/Blue)",
-      "411": "Aerial Combo Finisher (Freeflutter/Blue)",
+      "411": "Aerial Finisher (Freeflutter/Blue)",
 
       "1100": "Attack 1 (Dawnfly/Pink)",
       "1103": "Attack 2 (Dawnfly/Pink)",
@@ -305,7 +305,7 @@
       "1320": "Aerial Attack 3 (Dawnfly/Pink)",
       "1400": "Aerial Attack (Dawnfly/Pink)",
       "1410": "Aerial Barrage (Dawnfly/Pink)",
-      "1411": "Aerial Combo Finisher (Dawnfly/Pink)",
+      "1411": "Aerial Finisher (Dawnfly/Pink)",
 
       "1": "Kyokasuigetsu",
       "2": "Setsuna",
@@ -333,8 +333,8 @@
 
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
-      "302": "Aerial Combo Finisher",
-      "400": "Launch Attack",
+      "302": "Aerial Finisher",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "1000": "Blade Impulse",
@@ -348,23 +348,23 @@
       "101": "Attack 2",
       "102": "Attack 3",
 
-      "110": "Power Strike 1 (XY)",
-      "120": "Power Strike 2 (XXY)",
-      "103": "Power Strike 3 (XXXY)",
-      "111": "Combo Finisher 1 (XYY)",
-      "121": "Combo Finisher 2 (XXYY)",
-      "104": "Combo Finisher 3 (XXXYY or after skills)",
+      "110": "Power Strike 1",
+      "120": "Power Strike 2",
+      "103": "Power Strike 3",
+      "111": "Finisher 1",
+      "121": "Finisher 2 ",
+      "104": "Finisher 3 ",
 
       "200": "Heavy Swing 1",
       "201": "Heavy Swing 2",
       "202": "Heavy Swing 3",
       "203": "Heavy Swing 4",
-      "204": "Heavy Swing 5",
+      "204": "Heavy Swing (Finisher)",
 
       "300": "Aerial Attack 1",
       "310": "Aerial Attack 2",
       "320": "Aerial Attack 3",
-      "400": "Launch Attack",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "1100": "Rift Divider",
@@ -384,7 +384,7 @@
       "120": "Attack 3",
       "130": "Combo Finisher",
       "200": "Schlaht",
-      "201": "Schlaht 2 (XY)",
+      "201": "Schlaht 2",
 
       "300": "Aerial Attack 1",
       "310": "Aerial Attack 2",
@@ -412,10 +412,10 @@
 
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
-      "302": "Aerial Combo Finisher",
+      "302": "Aerial Finisher",
       "311": "Aerial Attack 2 (Perfect)",
-      "312": "Aerial Combo Finisher (Perfect)",
-      "400": "Launch Attack",
+      "312": "Aerial Finisher (Perfect)",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "1000": "Uwe",
@@ -429,15 +429,15 @@
       "102": "Attack 3",
       "103": "Attack 4",
 
-      "110": "Power Strike 1 (XY)",
-      "120": "Power Strike 2 (XXY)",
-      "130": "Power Strike 3 (XXXY)",
-      "104": "Power Strike 4 (XXXXY)",
+      "110": "Power Strike 1",
+      "120": "Power Strike 2",
+      "130": "Power Strike 3",
+      "104": "Power Strike 4",
 
-      "111": "Combo Finisher 1 (XYY)",
-      "121": "Combo Finisher 1 (XXYY)",
-      "131": "Combo Finisher 3 (XXXYY)",
-      "105": "Combo Finisher 4 (XXXXYy)",
+      "111": "Finisher 1",
+      "121": "Finisher 2",
+      "131": "Finisher 3",
+      "105": "Finisher 4",
 
       "200": "Collapse",
       "210": "Enhanced Collapse (Link Time/After Finishers)",
@@ -468,15 +468,15 @@
       "120": "Attack 3",
       "130": "Attack 4",
       "140": "Attack 5",
-      "111": "Sharpened Focus 1 (After Combo Finisher 1)",
-      "121": "Sharpened Focus 2 (After Combo Finisher 2)",
-      "131": "Sharpened Focus 3 (After Combo Finisher 3)",
-      "141": "Sharpened Focus 4 (After Combo Finisher 4+)",
-      "150": "Combo Finisher 1",
-      "151": "Combo Finisher 2",
-      "152": "Combo Finisher 3",
-      "153": "Combo Finisher 4",
-      "154": "Combo Finisher 5",
+      "111": "Sharpened Focus 1",
+      "121": "Sharpened Focus 2",
+      "131": "Sharpened Focus 3",
+      "141": "Sharpened Focus 4",
+      "150": "Finisher 1",
+      "151": "Finisher 2",
+      "152": "Finisher 3",
+      "153": "Finisher 4",
+      "154": "Finisher 5",
 
       "201": "Lunge/Counter",
 
@@ -484,7 +484,7 @@
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
       "303": "Aerial Attack 4",
-      "400": "Launch Attack",
+      "400": "Launch",
       "410": "Aerial Barrage"
     },
     "d16cfbde": {
@@ -499,10 +499,10 @@
       "121": "Power Strike 2 (XXY)",
       "130": "Power Strike 3 (XXXY)",
 
-      "280": "Charged Combo Finisher 1 (XYY)",
-      "281": "Combo Finisher 1 (XYY)",
-      "251": "Combo Finisher 2 (XXYY)",
-      "252": "Combo Finisher 3 (XXXYY)",
+      "280": "Finisher 1 (Charged)",
+      "281": "Finisher 1 ",
+      "251": "Finisher 2",
+      "252": "Finisher 3",
       "260": "Combo Finisher (After Battalions of Fear)",
       "270": "Combo Finisher (After Great Scythe Grynoth)",
 
@@ -510,8 +510,8 @@
 
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
-      "302": "Aerial Combo Finisher",
-      "400": "Launch Attack",
+      "302": "Aerial Finisher",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "1000": "Battalions of Fear",
@@ -521,7 +521,39 @@
       "1600": "Umbral Eclipse",
       "1700": "Netherwrath"
     },
-    "8056abcd": {},
+    "bcc238de": {
+      "100": "Attack 1",
+      "101": "Attack 2",
+      "102": "Attack 3",
+      "103": "Attack 4",
+      "104": "Combo Finisher",
+
+      "111": "Attack 2 (Perfect)",
+      "112": "Attack 3 (Perfect)",
+      "113": "Attack 4 (Perfect)",
+      "114": "Combo Finisher (Perfect)",
+
+      "122": "Attack 3 (Combo Broken)",
+      "123": "Attack 4 (Combo Broken)",
+      "124": "Combo Finisher (Combo Broken)",
+
+      "200": "Raging Fist",
+
+      "300": "Aerial Attack 1",
+      "301": "Aerial Attack 2",
+      "302": "Aerial Combo Finisher",
+
+      "310": "Aerial Attack 2 (Perfect)",
+      "311": "Aerial Combo Finisher (Perfect)",
+
+      "400": "Launch",
+      "410": "Aerial Barrage",
+
+      "1000": "Arhat Skybreaker",
+      "1100": "Branding Palm",
+      "1200": "Iron Shoulder",
+      "1500": "Infernal Stomp"
+    },  
     "f5755c0e": {}
   }
 }
