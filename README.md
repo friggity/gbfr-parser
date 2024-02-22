@@ -12,7 +12,7 @@
 2. **Run act_ws.py or uac_start.cmd**
    - Double-click `act_ws.py` or `uac_start.cmd` to run. If there are no issues, a cmd window will pop up indicating that ACT has been successfully installed.
 
-3. **Open act_ws.html**
+3. **Open index.html**
    - It is recommended to use Chrome browser to open `index.html`.
 
   Troubleshoot 
