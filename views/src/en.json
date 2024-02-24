@@ -37,24 +37,24 @@
       "120": "Attack 3",
       "130": "Attack 4",
 
-      "200": "Power Raise 1 (Y)",
-      "201": "Power Raise 2 (XYYY)",
-      "202": "Power Raise 3 (XXYYY)",
-      "203": "Power Raise 4 (XXXYYY)",
+      "200": "Power Raise 1 ",
+      "201": "Power Raise 2 ",
+      "202": "Power Raise 3 ",
+      "203": "Power Raise 4 ",
 
-      "210": "Power Strike 1 (XY)",
-      "220": "Power Strike 2 (XXY)",
-      "230": "Power Strike 3 (XXXY)",
-      "240": "Combo Finisher (XXXXY)",
+      "210": "Power Strike 1",
+      "220": "Power Strike 2",
+      "230": "Power Strike 3",
+      "240": "Combo Finisher",
 
-      "211": "Launch 1 (XYY)",
-      "221": "Launch 2 (XXYY)",
+      "211": "Launch Attack 1",
+      "221": "Launch Attack 2",
 
       "300": "Aerial Attack 1",
       "310": "Aerial Attack 2",
       "320": "Aerial Attack 3",
-      "330": "Aerial Combo Finisher",
-      "400": "Launch Attack",
+      "330": "Aerial Finisher",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "1001": "Overdrive Surge (Arts I)",
@@ -97,7 +97,7 @@
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
       "303": "Aerial Loop Combo Opening",
-      "400": "Launch Attack",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "1000": "Infinite Wonders",
@@ -184,7 +184,7 @@
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
-      "400": "Launch Attack",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "2000": "Freeze",
@@ -218,14 +218,37 @@
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
-      "400": "Launch Attack",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "4294967295": "GrenadeOverkill",
       "215": "GrenadeOverkill2"
     },
-    "a9d6569e": {},
-    "2b4aa114": {
+    "a9d6569e": {
+      "100": "Attack 1",
+      "101": "Attack 2",
+      "102": "Attack 3",
+      "103": "Attack 4",
+
+      "200": "Rose Garden",
+
+
+      "210": "Finisher 1",
+      "220": "Finisher 2",
+      "230": "Finisher 3",
+      "240": "Finisher 4",
+
+      "300": "Aerial Attack 1",
+      "301": "Aerial Attack 2",
+      "302": "Aerial Finisher",
+
+      "410": "Aerial Barrage",
+
+      "2": "Rose Tycoon",
+      "4": "Spiral Rose",
+      "6": "Lost Love"
+    },
+      "2b4aa114": {
       "100": "Attack 1",
       "101": "Attack 2",
       "102": "Attack 3",
@@ -236,16 +259,16 @@
       "107": "Noble Stance 4",
       "110": "Combo Finisher",
 
-      "120": "Yellow Power Strike (X/Lunge)",
-      "130": "Yellow Power Strike (Y/Dive)",
+      "120": "Yellow Power Strike (Lunge)",
+      "130": "Yellow Power Strike (Dive)",
       "200": "Noble Strategy",
-      "201": "Power Strike (X/Lunge)",
-      "202": "Power Strike (Y/Dive)",
+      "201": "Power Strike (Lunge)",
+      "202": "Power Strike (Dive)",
 
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
-      "400": "Launch Attack",
+      "400": "Launch ",
       "410": "Aerial Barrage",
 
       "1100": "Shining Onslaught",
@@ -254,7 +277,7 @@
       "1610": "Sword of Lumiel",
       "1700": "Holy Ladder"
     },
-    "bcc238de": {},
+    
     "fba6615d": {
       "65": "Pets",
       "100": "Attack 1",
@@ -306,7 +329,7 @@
       "1300": "Aerial Attack 1 (Dawnfly/Pink)",
       "1310": "Aerial Attack 2 (Dawnfly/Pink)",
       "1320": "Aerial Attack 3 (Dawnfly/Pink)",
-      "1400": "Aerial Attack (Dawnfly/Pink)",
+      "1400": "Launch (Dawnfly/Pink)",
       "1410": "Aerial Barrage (Dawnfly/Pink)",
       "1411": "Aerial Finisher (Dawnfly/Pink)",
 
@@ -314,8 +337,8 @@
       "2": "Setsuna",
       "3": "Apex (No Counter)",
       "4": "Crescent Moon",
-      "10": "Apex Counter",
-      "11": "Apex Counter",
+      "10": "Apex Counter 1",
+      "11": "Apex Counter 2",
 
       "5": "Transient (Freeflutter/Blue)",
       "1005": "Transient (Dawnfly/Pink)"
@@ -404,8 +427,15 @@
 
       "111": "Attack 2 (Perfect)",
       "112": "Attack 3 (Perfect)",
+      "122": "Attack 3 (Mistimed)",
+      "162": "Attack 3 (1st Perfect)",
       "113": "Attack 4 (Perfect)",
+      "123": "Attack 4 (Mistimed)",
+      "163": "Attack 4 (1st Perfect)",
+      "124": "Combo Finisher (Mistimed)",
       "150": "Combo Finisher (Perfect)",
+      "164": "Combo Finisher 0 (Perfect)",
+      "114": "Combo Finisher 2 (Perfects)",
       "170": "Perfect Execution",
 
       "200": "Lunge 1",
@@ -418,6 +448,7 @@
       "302": "Aerial Finisher",
       "311": "Aerial Attack 2 (Perfect)",
       "312": "Aerial Finisher (Perfect)",
+      "313": "Aerial Finisher (Mistimed)",
       "400": "Launch",
       "410": "Aerial Barrage",
 
@@ -443,14 +474,14 @@
       "105": "Finisher 4",
 
       "200": "Collapse",
-      "210": "Enhanced Collapse (Link Time/After Finishers)",
+      "210": "Enhanced Collapse (After Finishers)",
       "220": "Enhanced Collapse (After Link Attack)",
       "230": "Enhanced Collapse (After Alexandria/Mimic Doll)",
 
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
       "302": "Aerial Attack 3",
-      "400": "Launch Attack",
+      "400": "Launch",
       "410": "Aerial Barrage",
 
       "1000": "Mimic Doll",
@@ -491,14 +522,14 @@
       "410": "Aerial Barrage"
     },
     "d16cfbde": {
-      "100": "Attack 1 (X)",
-      "110": "Attack 2 (XX)",
-      "120": "Attack 3 (XXX/XYXX)",
-      "114": "Attack 4 (XYX)",
-      "122": "Attack 5 (XXYX)",
+      "100": "Attack 1",
+      "110": "Attack 2",
+      "120": "Attack 3",
+      "114": "Attack 4",
+      "122": "Attack 5",
 
       "112": "Power Strike 1 (Charged)",
-      "113": "Power Strike 1 ",
+      "113": "Power Strike 1",
       "121": "Power Strike 2 ",
       "130": "Power Strike 3 ",
 
@@ -506,8 +537,8 @@
       "281": "Finisher 1 ",
       "251": "Finisher 2",
       "252": "Finisher 3",
-      "260": "Combo Finisher (After Battalions of Fear)",
-      "270": "Combo Finisher (After Great Scythe Grynoth)",
+      "260": "Combo Finisher (Battalions of Fear)",
+      "270": "Combo Finisher (Great Scythe Grynoth)",
 
       "200": "Melas Unleashed",
 
@@ -544,10 +575,10 @@
 
       "300": "Aerial Attack 1",
       "301": "Aerial Attack 2",
-      "302": "Aerial Combo Finisher",
-
+      "302": "Aerial Finisher",
+      "303": "Aerial Finisher (Mistimed)",
       "310": "Aerial Attack 2 (Perfect)",
-      "311": "Aerial Combo Finisher (Perfect)",
+      "311": "Aerial Finisher (Perfect)",
 
       "400": "Launch",
       "410": "Aerial Barrage",
