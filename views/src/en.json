@@ -588,6 +588,70 @@
       "1200": "Iron Shoulder",
       "1500": "Infernal Stomp"
     },  
-    "f5755c0e": {}
+    "8056abcd": {
+      "1": "Regliniv Recidiv",
+      "2": "Unbound",
+      "3": "Atonement",
+      "4": "Ragnarok Form (Enter Godmight)",
+      "5": "Scourge",
+      "6": "Fourfold Vengeanace",
+      "7": "Never Enough",
+      "8": "Arcadia",
+
+      "100": "Attack 1",
+      "101": "Attack 2",
+      "102": "Attack 3",
+      "103": "Attack Finisher",
+      "110": "Combo Finisher",
+      "200": "Lunge 1",
+      "201": "Lunge 2",
+      "202": "Lunge 3",
+      "203": "Lunge 4",
+      "204": "Sword Flurry",
+      
+      "300": "Aerial Attack 1",
+      "301": "Aerial Attack 2",
+      "302": "Aerial Attack 3",
+      
+      "400": "Launch",
+      "410": "Aerial Barrage",
+      
+      "503": "Power Strike 1",
+      "505": "Power Strike 2",
+      "506": "Power Strike 3",
+      "507": "Power Strike 4",
+      "508": "Power Strike 5",
+      "509": "Power Strike 6",
+      "510": "Power Strike 7"
+    },  
+    "f5755c0e": {
+      "0": "Light Blast (Enter Dragonform)",
+      "4": "Ragnarok Form",
+      "1000": "Regliniv Recidiv (Dragonform)", 
+      "1100": "Scourge (Dragonform)",
+      "1200": "Never Enough (Dragonform)",
+      "1300": "Arcadia (Dragonform)",
+      "100": "Attack 1 (Dragonform",
+      "101": "Attack 2 (Dragonform)",
+      "102": "Attack 3 (Dragonform)",
+      "103": "Attack 4 (Dragonform)",
+      "104": "Attack 5 (Dragonform)",
+      "105": "Attack 6 (Dragonform)",
+      "106": "Attack 7 (Dragonform)",
+      "107": "Attack 8 (Dragonform)",
+      "108": "Attack 9 (Dragonform)",
+      "109": "Attack 10 (Dragonform)",
+      "120": "Combo Finisher (Dragonform)",
+      "200": "Light Blast",
+      "220": "Light Blast Finisher",
+      "225": "Attack Switch (After Light Blast Finisher)",
+
+      "300": "Aerial Attack 1",
+      "301": "Aerial Attack 2",
+      "302": "Aerial Attack 3",
+
+      "400": "Launch",
+      "410": "Aerial Barrage",
+      "900": "Transformation"
   }
 }
