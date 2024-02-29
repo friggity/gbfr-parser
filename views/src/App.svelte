@@ -181,7 +181,7 @@
   async function getAvgSessionData() {
     // Check that at least one session exists
     if ($sessions.length == 0) {
-      return;
+      await navigator.clipboard.writeText("No sessions");
     }
 
     // Declare list and store first session
@@ -192,24 +192,29 @@
     for (var i = 0; i < session.actors.length; i++) {
       var obj = {
         id: session.actors[i].character_id,
-        dpsSum: session.actors[i].dps
+        dps: session.actors[i].dps
       } as any;
       objList.push(obj);
     }
 
     // If only one session, return session data
     if ($sessions.length == 1) {
-      return getAvgOutputString(objList);
+      const output = await getAvgOutputString(objList);
+      await navigator.clipboard.writeText(output);
     }
 
     // Iterate through sessions and aggregate data
     for (var i = 1; i < $sessions.length; i++) {
       session = $sessions[i];
-      if (objList.length > 0)
-        for (var j = 0; j < objList.length; j++)
-          for (var k = 0; k < objList.length; k++)
-            if (objList[j].id == session.actors[k].character_id)
+      if (objList.length > 0) {
+        for (var j = 0; j < objList.length; j++) {
+          for (var k = 0; k < objList.length; k++) {
+            if (objList[j].id == session.actors[k].character_id) {
               objList[j].dps += session.actors[k].dps;
+            }
+          }
+        }
+      }
     }
 
     // Average dps data
@@ -218,7 +223,8 @@
     }
 
     // Return data
-    return getAvgOutputString(objList);
+    const output = await getAvgOutputString(objList);
+    await navigator.clipboard.writeText(output);
 
   }
 
@@ -226,13 +232,12 @@
     var values = [];
     var total = 0;
     for (var i = 0; i < o.length; i++) {
-      values.push(o.id, o.dps);
+      values.push(o.id, o.dps.toString);
       total += o.dps;
     }
-    values.push("Total", total);
-    values.join("\n");
+    values.push("Total", total.toString);
 
-    return values;
+    return values.join("\n");
   }
 
   async function captureChat() {
