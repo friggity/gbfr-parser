@@ -10,13 +10,14 @@
     { key: "hit", text: "Hits" },
     { key: "dmg", text: "Damage" },
     { key: "min", text: "Min. DMG" },
-    { key: "max", text: "Max. DMG" }
+    { key: "max", text: "Max. DMG" },
+    { key: "pct", text: "DMG %" }
   ];
 </script>
 
 <script lang="ts">
   export let actor: ActorRecord;
-
+  export let target_id: number;
   let sortBy: keyof ActionRecord = "dmg";
   let descending = true;
 
@@ -27,7 +28,15 @@
       }
       return Number(a[sortBy]) < Number(b[sortBy]) ? -1 : 1;
     });
+    actor.actions?.forEach(e => {
+      let total_dmg = target_id === 0 ? actor.dmg : actor.targets?.find(e => e.player_id === target_id)?.dmg ?? 0;
+      e.pct = total_dmg === 0 ? 0 : e.dmg / total_dmg;
+    });
   }
+
+  const getFilteredAction = (actions: ActionRecord[], target_id: number) => {
+    return actions.filter(x => x.target_player_id === target_id);
+  };
 
   const getActionName = (characterId: string, actionId: number) => {
     const $_ = get(_);
@@ -71,13 +80,18 @@
   </thead>
   <tbody>
     {#if actor.actions?.length}
-      {#each actor.actions || [] as action}
+      {#each getFilteredAction(actor.actions, target_id) || [] as action}
         <tr>
           <td>{getActionName(actor.character_id, action.idx)}</td>
           <td>{action.hit.toLocaleString()}</td>
           <td>{action.dmg.toLocaleString()}</td>
           <td>{action.min.toLocaleString()}</td>
           <td>{action.max.toLocaleString()}</td>
+          <td
+            >{(Number(action.pct || 0) * 100).toLocaleString(undefined, {
+              maximumFractionDigits: 1
+            })}%</td
+          >
         </tr>
       {/each}
     {/if}

@@ -1,4 +1,12 @@
 @import reset
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap')
+
+$primary-color: #4d4dff
+$secondary-color: #666666
+$danger-color: #ff3838
+$warning-color: #ffba00
+$success-color: #2ec946
 
 ::-webkit-scrollbar
   background-color: rgba(58, 58, 58, 1)
@@ -79,7 +87,7 @@ b
   justify-content: center
   min-height: 100vh
   padding: 2rem
-
+  flex-direction: column
 #main
   background-color: $fg
   margin: auto
@@ -87,28 +95,63 @@ b
   min-width: 40rem
   max-width: 80rem
 
+$header-height: 3.2rem
 header
   background-color: $fg-darken
   position: relative
-  overflow: auto
+  display: flex
+  flex-direction: row
+  height: $header-height
+
+.slider-prev,
+.slider-next
+  background-color: $fg
+  border: 0 solid $border
+
+  height: $header-height
+  padding: .5rem 1rem
+
+  &:hover
+    color: $border-green
+
+.slider-prev
+  border-right-width: .1rem
+.slider-next
+  border-left-width: .1rem
+
+.slider-wrapper
+  position: relative
+  overflow: hidden
+  flex: auto
+  width: 0
   white-space: nowrap
 
+  .swiper
+    margin: 0!important
+
   button
-    border: 0 solid transparent
-    border-width: 0 .1rem
+    border: 0 solid $border
     font-weight: 500
+    font-size: 12px
 
-    min-width: 15rem
-    padding: 1.2rem 2rem
-    margin: 0 -.1rem
+    position: relative
+    overflow: hidden
+    min-width: 12rem
+    max-width: 15rem
+    height: $header-height
+    padding: .5rem 1rem
 
-    svg
-      position: relative
+    &:not(:last-child)
+      border-right-width: .1rem
 
+    &:hover
+      color: $text-lighten
     &.active
       background-color: $fg
-      border-color: $border-green
       color: $border-green
+
+    svg:hover
+      color: $border-red
 
 main
   > button
@@ -117,6 +160,57 @@ main
 
     &:hover
       color: $border-green
+
+div
+  .alert
+    width: auto
+    padding: .5rem
+    max-width: 100%
+
+  @mixin alert-1($color)
+    background-color: rgba($color, 0.05)
+
+    .alert-title
+      color: $color
+
+  @mixin alert-2($color)
+    background-color: rgba($color, 0.05)
+
+    .alert-title
+      color: $color
+
+  @mixin alert-3($color)
+    background-color: rgba($color, 0.05)
+
+  .alert-1-primary
+    @include alert-1($primary-color)
+
+  .alert-1-warning
+    @include alert-1($warning-color)
+
+  .alert-2-success
+    @include alert-2($success-color)
+
+  .alert-2-secondary
+    @include alert-2($secondary-color)
+
+  .alert-3-primary
+    @include alert-3($primary-color)
+
+  .alert-3-danger
+    @include alert-3($danger-color)
+
+  .alert-title
+    margin-top: 0
+    margin-bottom: .5rem
+    font-size: .5rem
+    font-family: 'Poppins', sans-serif
+
+  .alert-content
+    margin: 0
+    font-size: 14px
+    font-family: 'Open Sans', sans-serif
+    color: $text-warning
 
 table
   text-align: right
@@ -161,6 +255,28 @@ table
         tr:last-child
           border-bottom: 0
 
+  .target-box
+    display: inline-block
+    width: 100%
+    table-layout: fixed
+    border-collapse: collapse
+
+  .target-info
+    width: 100%
+    text-align: left
+    display: flex
+    align-items: center
+    background-color: $fg
+    cursor: pointer
+    color: $text-lighten
+    &:hover
+      color: $text-green-lighten
+      background-color: $fg-darken
+
+  .target-active
+    background-color: $fg-darken
+    color: $text-green-lighten
+
 canvas
   padding: 0 2rem 2rem
 
@@ -184,3 +300,9 @@ canvas
     max-width: 78rem
     max-height: calc(100vh - 8rem)
     margin: auto
+
+.button
+  border: 1px solid gray
+  padding: 2em
+  border-radius: 2em
+  margin-bottom: 2em
