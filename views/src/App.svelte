@@ -25,6 +25,7 @@
     removeSession,
     saveSessions
   } from "./lib/Utils";
+  import { writable } from "svelte/store";
 
   let ws: WebSocket;
   let updateActiveSession = false;
@@ -177,6 +178,63 @@
     return columnValues.join("\n");
   }
 
+  async function getAvgSessionData() {
+    // Check that at least one session exists
+    if ($sessions.length == 0) {
+      return;
+    }
+
+    // Declare list and store first session
+    var objList = [];
+    var session = $sessions[0];
+
+    // Store actor data in list for further manipulation
+    for (var i = 0; i < session.actors.length; i++) {
+      var obj = {
+        id: session.actors[i].character_id,
+        dpsSum: session.actors[i].dps
+      } as any;
+      objList.push(obj);
+    }
+
+    // If only one session, return session data
+    if ($sessions.length == 1) {
+      return getAvgOutputString(objList);
+    }
+
+    // Iterate through sessions and aggregate data
+    for (var i = 1; i < $sessions.length; i++) {
+      session = $sessions[i];
+      if (objList.length > 0)
+        for (var j = 0; j < objList.length; j++)
+          for (var k = 0; k < objList.length; k++)
+            if (objList[j].id == session.actors[k].character_id)
+              objList[j].dps += session.actors[k].dps;
+    }
+
+    // Average dps data
+    for (var i = 0; i < objList.length; i++) {
+      objList[i].dps = objList[i].dps / $sessions.length;
+    }
+
+    // Return data
+    return getAvgOutputString(objList);
+
+  }
+
+  async function getAvgOutputString(o: any) {
+    var values = [];
+    var total = 0;
+    for (var i = 0; i < o.length; i++) {
+      values.push(o.id, o.dps);
+      total += o.dps;
+    }
+    values.push("Total", total);
+    values.join("\n");
+
+    return values;
+  }
+
   async function captureChat() {
     const valuesStr = await getTableColumnValues();
 
@@ -312,6 +370,7 @@
         <button id="capture" on:click={capture} class="button">Copy Image</button>
         <button id="capture1" on:click={captureTab} class="button">Copy Tab</button>
         <button id="capture2" on:click={captureChat} class="button">Copy chat</button>
+        <button id="capture3" on:click={getAvgSessionData} class="button">Copy Avg DPS Data</button>
       </div>
   {:else}
       <i>Waiting for battle events... </i>
